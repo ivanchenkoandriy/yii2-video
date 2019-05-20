@@ -1,0 +1,20 @@
+{
+    "name": "bionsiviz/yii2-video",
+    "description": "Yii2 video helpers",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andriy Ivanchenko",
+            "email": "ivanchenko.andriy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "BionSiviz\\Yii2Video\\": "src/" 
+        }    
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ricardofiorani/php-video-url-parser": "^1.0"
+    }
+}
