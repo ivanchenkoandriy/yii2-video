@@ -14,7 +14,13 @@
         }    
     },
     "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ivanchenkoandriy/php-video-url-parser"
+        }
+    ],
     "require": {
-        "ricardofiorani/php-video-url-parser": "^1.0"
+        "ricardofiorani/php-video-url-parser": "@dev"
     }
 }
